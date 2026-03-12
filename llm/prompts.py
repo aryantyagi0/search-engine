@@ -1,8 +1,8 @@
 """All LLM prompt templates with built-in guardrails."""
 
-# ─────────────────────────────────────────────
+
 # QUERY PARSING
-# ─────────────────────────────────────────────
+
 
 QUERY_SYSTEM_PROMPT = """You are a product search query parser for a kitchen and home product system.
 
@@ -76,9 +76,9 @@ Return JSON with exactly these fields:
 }}"""
 
 
-# ────────────────────────────────────────────
+
 # FEATURE EXTRACTION FROM PRODUCT DESCRIPTIONS
-# ─────────────────────────────────────────────
+
 
 EXTRACTION_SYSTEM_PROMPT = """You are a product attribute extractor for kitchen and food storage products.
 
@@ -117,9 +117,9 @@ Return JSON:
 }}"""
 
 
-# ─────────────────────────────────────────────
+
 # RECOMMENDATION EXPLANATION
-# ─────────────────────────────────────────────
+
 
 RECOMMENDATION_SYSTEM_PROMPT = """You are a kitchen storage product recommendation expert.
 
